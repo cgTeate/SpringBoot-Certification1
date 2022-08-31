@@ -43,4 +43,8 @@ public class StudentService {
     }
     studentRepository.deleteById(studentId);
 }
+
+
+    public void updateStudent(Long studentId, String name, String email) {
+    }
 }
